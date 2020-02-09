@@ -1,0 +1,29 @@
+本地
+git config user.name wangmeng  //设置姓名
+git config user.email 1160283166@qq.com  //设置邮箱
+系统
+git config --global user.name wangmeng  //设置姓名
+git config --global user.email 1160283166@qq.com  //设置邮箱
+git status //查看
+
+git add . //添加
+git commit -m 'xxx' //提交
+
+git log //显示日志信息
+git log --pretty=oneline //一行显示
+git log --oneline //简单显示
+
+git reset --hard   //后退版本
+git diff demo.txt //比较差异
+
+git branch -v //查看分支
+git branch hot_fix //创建分支
+git branch -d 分支名 //删除分支
+git checkout hot_fix  //选择分支
+git merge  分支名字//合并分支
+
+创建远程地址别名
+
+git remote -v //查看是否有别名
+git remote add origin  https://gitee.com/wangmengdream/redPacket.git  //添加别名
+git push origin master //推送到远程库
